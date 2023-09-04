@@ -6,8 +6,7 @@ import streamlit as st
 st.set_page_config( page_title="INDICADORES FINANCEIROS", layout="wide")
 
 st.title("INDICADORES DA BOLSA")
-st.caption("Esse Dashboard foi gerado com enfoque para monitorar as ações BEST e algumas FIIs. Empresas de Bancos, Energia, Sustentabilidade e "
-             "Telecomunicação")
+st.caption("Esse Dashboard foi gerado com enfoque para monitorar as ações BEST e algumas FIIs")
 
 end_date = dt.datetime.today()
 start_date =  dt.datetime(end_date.year-1,end_date.month,end_date.day)
