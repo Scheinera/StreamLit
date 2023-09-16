@@ -67,7 +67,8 @@ with st.container():
 
     with st.container():
         st.text("Preço das ações:")
-        st.area_chart(df["Adj Close"])
+        #st.area_chart(df["Adj Close"])
+        st.line_chart(df["Adj Close"])
 
         st.text("Mínimo, Preço das Ações e Máximo")
         st.line_chart(df[["Low", "Adj Close", "High"]])
