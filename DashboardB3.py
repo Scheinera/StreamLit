@@ -2,6 +2,7 @@ import pandas as pd
 import yfinance as yf
 import datetime as dt
 import streamlit as st
+import schedulestre
 
 st.set_page_config( page_title="INDICADORES FINANCEIROS", layout="wide")
 
